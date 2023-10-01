@@ -3,96 +3,94 @@
     padding: 0;
 }
 
-.estilodetitulo{
-    background-color: #848484;
-    font-family: 'Courier New', Courier, monospace sans-serif;
-    color: #000;
-    text-align: center;
-    font-size: 4rem;
-    margin-top: auto;
-    margin-bottom: auto;
-    display: block;
-
-
+.fondo{
+    background-color: #613525;
 }
+
+<!--iconos redes-->
 
 .iconosredes{
     justify-content: right;
     display: flex;
     flex-direction: row;
-    background-color:#848484;
-    font-size: 17px;
+    font-size: 14px;
 }
 
+<!--navbar-->
 
-.menu1{
-    display: flex;
-    flex-direction: row;
-    justify-content: center; 
-    list-style-type: none;
-    font-family:'Courier New', Courier, monospace sans-serif;
-    font-size: 1.5rem;
-    background-color:#848484;
-    width: 1920px;
-    height: 1080px;
-    color: #000;
+.estilo-titulo{
+    color:white;
+    font-size: 4rem;
+
 }
-.menu2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color:#848484; 
-    width:1920px; 
-    height: 50px;
-    list-style-type: none;
-    font-family:'Courier New', Courier, monospace sans-serif;
-    font-size: 1.5rem;
-    color: #000;
-}
-li{
-    padding: 15px 15px 15px 15px;
-    list-style-type: none;
-    color: black;
+.navbar-estilo{
+    color: white;
+    font-size: 2.5rem;
 }
 
-.estilobiografia{
+.colorboton{
+    color: white;
+
+}
+
+<!--biografia-->
+
+.fondo-bio{
+    background-color:#613525;
+}
+
+.estilo-titulo-bio{
     text-align: center;
     color: white;
-    font-family: 'Courier New', Courier, monospace sans-serif;
-    font-size: 3rem;
-    margin: 0;
-    background-color:#01050a;
-    width: auto;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
-.textobiografia{
+.texto-biografia{
     text-align: left;
-    color:white;
-    width: 1920px;
-    height: 1080px;
-    background-color:#01050a;
-    font-family: 'Courier New', Courier, monospace serif;
-    overflow: hidden;
-    font-size: 1.3rem;
-    margin: 0;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    margin-left: 50px;
+}
+.grid-img-bio{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+    grid-template-areas: "..centrado-img-bio";
 }
 
+.img-bio{
+    grid-area: centrado-img-bio;
+    width: 450px;
+    height: 600px;
+}
+.estilo-des-bio{
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-bottom: 20px;
+}
+
+<!--discografia-->
+
+.fondo-dis{
+    background-color: #613525;
+}
 .estilodisco{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 3rem;
-    background-color: #848484;
     margin-bottom: 30px;
-    color: black;
+    color: white;
 }
 
 .centradoye{
-    background-color: #000;
     width: 250px;
-    color: white;
+    color: black;
     margin-top: 20px;
     text-align: center;
-    justify-content: center;
 }
 .gridiscografia{
     display: grid;
@@ -106,7 +104,6 @@ li{
     "dis17 dis18 dis19 dis20";
     overflow: hidden;
     row-gap: 20px;
-    background-color: #848484;
 }
 
 .dis1{
@@ -173,7 +170,7 @@ li{
     grid-area: dis20;
 }
 
-
+<!--shows-->
 
 table{
     width: 100%;
@@ -201,6 +198,8 @@ th, td {
     font-size: 3rem;
     font-family: 'Courier New', Courier, monospace serif;
 }
+
+<!--galeria-->
 
 .estilogaleria{
     text-align: center;
@@ -253,7 +252,7 @@ th, td {
 }
 
 
-
+<!--contacto-->
 .estilocontacto{
     text-align: center;
     color:black;
@@ -271,68 +270,31 @@ th, td {
     justify-content: left;
 }
 
-@media screen and (min-width:320px){   
-    .estilodetitulo{
-        text-align: center;
-        font-size: 2rem;
-    }
+
+@media screen and (min-width:320px){
+
 .iconosredes{
-    justify-content: center;
+    justify-content: right;
     display: flex;
     flex-direction: row;
-    background-color:#848484;
     font-size: 1rem;
-    }
-.menu1{
-    display: flex;
-    flex-direction: row;
-    justify-content: center; 
-    list-style-type: none;
-    font-family:'Courier New', Courier, monospace sans-serif;
-    font-size: 0.7rem;
-    background-color:#848484;
-    width: 320px;
-    color: #000;
 }
 
-.menu2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color:#848484; 
-    width: 320px; 
-    list-style-type: none;
-    font-family:'Courier New', Courier, monospace sans-serif;
-    font-size: 0.9rem;
-    color: #000;
-}
 .estilobiografia{
     text-align: center;
-    color: white;
+    color: black;
     font-family: 'Courier New', Courier, monospace sans-serif;
     font-size: 2rem;
     margin: 0;
-    background-color:#01050a;
     width: auto;
 }
 
 .textobiografia{
     text-align: left;
-    color:white;
+    color:#000;
     width: 320px;
-    background-color:#01050a;
     font-family: 'Courier New', Courier, monospace serif;
     overflow: hidden;
-    font-size: 0.8rem;
-}
-.menu2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color:#848484; 
-    width: 320px; 
-    list-style-type: none;
-    font-family:'Courier New', Courier, monospace sans-serif;
     font-size: 0.8rem;
 }
 
@@ -346,107 +308,186 @@ th, td {
 }
 
 .centradoye{
-    background-color: #000;
     width: 250px;
-    color: white;
+    color:black;
     margin-top: 20px;
     text-align: center;
     justify-content: center;
 }
+
 .gridiscografia{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas: 
-    "dis1"
-    "dis2"
-    "dis3"
-    "dis4"
-    "dis5"
-    "dis6"
-    "dis7"
-    "dis8"
-    "dis9"
-    "dis10"
-    "dis11"
-    "dis12"
-    "dis13"
-    "dis14"
-    "dis15"
-    "dis16"
-    "dis17"
-    "dis18"
-    "dis19"
-    "dis20";
+    "dis1 dis2"
+    "dis3 dis4"
+    "dis5 dis6"
+    "dis7 dis8"
+    "dis9 dis10"
+    "dis11 dis12"
+    "dis13 dis14"
+    "dis15 dis16"
+    "dis17 dis18"
+    "dis19 dis20";
     overflow: hidden;
     background-color: #848484;
+    margin-right: 6px;
 }
 
 .dis1{
     grid-area: dis1;
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
 }
 .dis2{
     grid-area: dis2;
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .dis3{
     grid-area: dis3;
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 .dis4{
     grid-area: dis4;
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .dis5{
     grid-area: dis5;
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 .dis6{
     grid-area: dis6;
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .dis7{
     grid-area: dis7;
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 .dis8{
     grid-area: dis8;
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .dis9{
     grid-area: dis9;
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 .dis10{
     grid-area: dis10;
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .dis11{
     grid-area: dis11;
-}
-.dis1{
-    grid-area: dis1;
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 .dis12{
     grid-area: dis12;
+    width: 150px;
+    height: 150px;margin-left: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .dis13{
     grid-area: dis13;
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 .dis14{
     grid-area: dis14;
-}
-.dis1{
-    grid-area: dis15;
+    width: 150px;
+    height: 150px;margin-left: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .dis15{
-    grid-area: dis16;
+    grid-area: dis15;
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 .dis16{
-    grid-area: dis17;
+    grid-area: dis16;
+    width: 150px;
+    height: 150px;margin-left: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .dis17{
-    grid-area: dis18;
+    grid-area: dis17;
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 .dis18{
-    grid-area: dis19;
+    grid-area: dis18;
+    width: 150px;
+    height: 150px;margin-left: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+.dis19{
+    grid-area: dis19;
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
 .dis20{
     grid-area: dis20;
+    width: 150px;
+    height: 150px;margin-left: 10px;
+    margin-right: 10px;margin-left: 10px;
+    margin-right: 10px;
 }
 
-
-
+.centradoye{
+    width: 250px;
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
 table{
     width: 100%;
     border: 1px solid #000;
@@ -532,126 +573,90 @@ th, td {
 }
 
 @media screen and (min-width:480px){
-    .estilodetitulo{
-        text-align: center;
-        font-size: 2rem;
-    }
     .iconosredes{
-        justify-content: center;
+        justify-content: right;
         display: flex;
         flex-direction: row;
-        background-color:#848484;
         font-size: 1rem;
     }
-    .menu1{
-        display: flex;
-        flex-direction: row;
-        justify-content: center; 
-        list-style-type: none;
-        font-family:'Courier New', Courier, monospace sans-serif;
-        font-size: 1rem;
-        background-color:#848484;
-        width: 480px;
-
+    .estilobiografia{
+        text-align: center;
+        color: white;
+        font-family: 'Courier New', Courier, monospace sans-serif;
+        font-size: 2rem;
+        margin: 0;
+        background-color:#01050a;
+        width: auto;
     }
 }
 
 @media screen and (min-width:600px){
-    .estilodetitulo{
-        text-align: center;
-        font-size: 3rem;
-    }
     .iconosredes{
-        justify-content: center;
+        justify-content: right;
         display: flex;
         flex-direction: row;
-        background-color:#848484;
     }
-    .menu1{
-        display: flex;
-        flex-direction: row;
-        justify-content: center; 
-        list-style-type: none;
-        font-family:'Courier New', Courier, monospace sans-serif;
-        font-size: 1.5rem;
-        background-color:#848484;
-        width: 600px;
-
+    .estilobiografia{
+        text-align: center;
+        color: white;
+        font-family: 'Courier New', Courier, monospace sans-serif;
+        font-size: 2rem;
+        margin: 0;
+        background-color:#01050a;
+        width: auto;
     }
- 
 }
 
 @media screen and (min-width:768px){
-    .estilodetitulo{
-        text-align: center;
-        font-size: 3rem;
-    }
     .iconosredes{
-        justify-content: center;
+        justify-content: right;
         display: flex;
         flex-direction: row;
-        background-color:#848484;
     }
-    .menu1{
-        display: flex;
-        flex-direction: row;
-        justify-content: center; 
-        list-style-type: none;
-        font-family:'Courier New', Courier, monospace sans-serif;
-        background-color:#848484;
-        width: 768px;
-
+    .estilobiografia{
+        text-align: center;
+        color: white;
+        font-family: 'Courier New', Courier, monospace sans-serif;
+        font-size: 2rem;
+        margin: 0;
+        background-color:#01050a;
+        width: auto;
     }
-    
 }
 @media screen and (min-width:1024px){
-    .estilodetitulo{
-        text-align: center;
-        font-size: 4rem;
-    }
     .iconosredes{
-        justify-content: center;
+        justify-content: right;
         display: flex;
         flex-direction: row;
-        background-color:#848484;
 
     }
-    .menu1{
-        display: flex;
-        flex-direction: row;
-        justify-content: center; 
-        list-style-type: none;
-        font-family:'Courier New', Courier, monospace sans-serif;
-        font-size: 1.5rem;
-        background-color:#848484;
-        width: 1024px;
-
+    .estilobiografia{
+        text-align: center;
+        color: white;
+        font-family: 'Courier New', Courier, monospace sans-serif;
+        font-size: 2rem;
+        margin: 0;
+        background-color:#01050a;
+        width: auto;
     }
-    
 }
+   
 
 @media screen and (min-width:1200px){
-    .estilodetitulo{
-        text-align: center;
-        font-size: 4rem;
-    }
     .iconosredes{
-        justify-content: center;
+        justify-content: right;
         display: flex;
         flex-direction: row;
-        background-color:#848484;
     }
-    .menu1{
-        display: flex;
-        flex-direction: row;
-        justify-content: center; 
-        list-style-type: none;
-        font-family:'Courier New', Courier, monospace sans-serif;
-        font-size: 1.8rem;
-        background-color:#848484;
-        width: 1200px;
-
+    .estilobiografia{
+        text-align: center;
+        color: white;
+        font-family: 'Courier New', Courier, monospace sans-serif;
+        font-size: 2rem;
+        margin: 0;
+        background-color:#01050a;
+        width: auto;
     }
-    
 }
+
 
