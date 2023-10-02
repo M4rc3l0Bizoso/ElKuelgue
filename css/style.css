@@ -185,7 +185,6 @@ th, td {
     text-align: center;
     vertical-align: top;
     border: 1px solid #000;
-    background-color: #848484;
     color: black;
     font-family: 'Courier New', Courier, monospace serif;
     font-size: 1.3rem;
@@ -193,7 +192,6 @@ th, td {
 
 .centradoshow{
     text-align: center;
-    background-color:#848484;
     color: black;
     font-size: 3rem;
     font-family: 'Courier New', Courier, monospace serif;
@@ -204,7 +202,6 @@ th, td {
 .estilogaleria{
     text-align: center;
     color: black;
-    background-color:#848484;
     padding-bottom: 30px;
     font-size: 3rem;
     font-family: 'Courier New', Courier, monospace serif;
@@ -220,7 +217,6 @@ th, td {
     "siete ocho nueve";
     gap: 3px;
     overflow: hidden;
-    background-color:#848484;
 }
 
 .imguno{
