@@ -19,7 +19,6 @@ h1{
     justify-content: right;
     display: flex;
     flex-direction: row;
-    font-size: 14px;
 }
 
 <!--navbar-->
@@ -159,9 +158,6 @@ ul{
 .dis11{
     grid-area: dis11;
 }
-.dis1{
-    grid-area: dis1;
-}
 .dis12{
     grid-area: dis12;
 }
@@ -171,24 +167,25 @@ ul{
 .dis14{
     grid-area: dis14;
 }
-.dis1{
+.dis15{
     grid-area: dis15;
 }
-.dis15{
+.dis16{
     grid-area: dis16;
 }
-.dis16{
+.dis17{
     grid-area: dis17;
 }
-.dis17{
+.dis18{
     grid-area: dis18;
 }
-.dis18{
+.dis19{
     grid-area: dis19;
 }
 .dis20{
     grid-area: dis20;
 }
+
 
 h3{
     color: whitesmoke;
@@ -316,45 +313,70 @@ th, td {
 @media screen and (min-width:320px) and (max-width:479px){
 
 .iconosredes{
-    justify-content: right;
+    justify-content: center;
     display: flex;
     flex-direction: row;
-    font-size: 1rem;
 }
 
-.estilobiografia{
-    text-align: center;
-    color: black;
-    font-family: 'Courier New', Courier, monospace sans-serif;
+h1{
     font-size: 2rem;
-    margin: 0;
-    width: auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+
 }
 
-.textobiografia{
-    text-align: left;
-    color:#000;
-    width: 320px;
-    font-family: 'Courier New', Courier, monospace serif;
-    overflow: hidden;
+.grid-img-bio{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+    grid-template-areas: "..centrado-img-bio";
+}
+
+.img-bio{
+    grid-area: centrado-img-bio;
+    width: 300px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.estilo-des-bio{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
     font-size: 0.8rem;
 }
 
-.estilodisco{
+.texto-biografia{
+    text-align: left;
+    color:whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+    font-size: 0.8rem;
+    margin-left: 25px;
+    margin-right: 10px;
+    font-size: 0.9rem;
+}
+
+.estilo-disco{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 2.5rem;
-    background-color: #848484;
-    margin-bottom: 15px;
-    color: black;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+h3{
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: auto;
+    margin-left: 10px;
 }
 
 .centradoye{
-    width: 250px;
-    color:black;
     margin-top: 20px;
     text-align: center;
-    justify-content: center;
+    font-size: 1rem;
+    color: whitesmoke;
+
 }
 
 .gridiscografia{
@@ -372,8 +394,7 @@ th, td {
     "dis17 dis18"
     "dis19 dis20";
     overflow: hidden;
-    background-color: #848484;
-    margin-right: 6px;
+    margin-right: 10px;
 }
 
 .dis1{
@@ -523,44 +544,27 @@ th, td {
     margin-right: 10px;
 }
 
-.centradoye{
-    width: 250px;
-    color: black;
-    margin-top: 20px;
-    text-align: center;
-    justify-content: center;
-}
 table{
     width: 100%;
-    border: 1px solid #000;
-    width: 320px;
+    border: 1px solid whitesmoke;
+    width: 318px;
     overflow: hidden;
     justify-content: center;
     display: flex;
+    margin-left: 7px;
 }
 th, td {
-    width: 300px;
     text-align: center;
     vertical-align: top;
-    border: 1px solid #000;
-    background-color: #848484;
-    color: black;
-    font-family: 'Courier New', Courier, monospace serif;
-    font-size: 0.8rem;
-}
-
-.centradoshow{
-    text-align: center;
-    background-color:#848484;
-    color: black;
-    font-size: 2rem;
-    font-family: 'Courier New', Courier, monospace serif;
+    border: 1px solid white;
+    color:whitesmoke;
+    font-family:e 'Courier New', Courier, monospace;
+    font-size: 0.7rem;
 }
 
 .estilogaleria{
     text-align: center;
     color: black;
-    background-color:#848484;
     padding-bottom: 30px;
     font-size: 3rem;
     font-family: 'Courier New', Courier, monospace serif;
@@ -568,8 +572,8 @@ th, td {
 
 .gridGaleria{
     display: grid;
-    grid-template-columns: repeat (4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat (1, 1fr);
+    grid-template-rows: repeat(9, 1fr);
     grid-template-areas: 
     "uno"
     "dos"
@@ -580,106 +584,403 @@ th, td {
     "siete"
     "ocho"
     "nueve";
-    gap: 3px;
     overflow: hidden;
-    background-color:#848484;
 }
 
 .imguno{
     grid-area: uno;
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
 }
 .imgdos{
     grid-area: dos;
+    height: 300px;
+    width: 230px;
+    margin-left: 45px;
 }
 .imgtres{
     grid-area: tres;
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 30px;
 }
 .imgcuatro{
     grid-area: cuatro;
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
 }
 .imgcinco{
     grid-area: cinco;
+    height: 300px;
+    width: 200px;
+    margin-left: 45px;
+}
 }
 .imgseis{
     grid-area: seis;
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
 }
 .imgsiete{
     grid-area: siete;
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
 }
 .imgocho{
     grid-area: ocho;
-}
-.imgnueve{
-    grid-area: nueve;
-}
+    height: 300px;
+    width: 230px;
+    margin-left: 45px;
+    margin-bottom: 30px;
 }
 
-@media screen and (min-width:480px){
+.imgnueve{
+    grid-area: nueve;
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.estilo-contacto{
+    text-align: center;
+    color:whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contacto{
+    width: 300px;
+    height: 250px;
+    text-align: left;
+    border: solid 1px white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #613525;
+}
+
+@media screen and (min-width:480px) and (max-width:599px){
     .iconosredes{
         justify-content: right;
         display: flex;
         flex-direction: row;
         font-size: 1rem;
     }
-    .estilobiografia{
-        text-align: center;
-        color: white;
-        font-family: 'Courier New', Courier, monospace sans-serif;
-        font-size: 2rem;
-        margin: 0;
-        background-color:#01050a;
-        width: auto;
-    }
+    
 }
 
-@media screen and (min-width:600px){
+@media screen and (min-width:600px) and (max-width:767px){
     .iconosredes{
         justify-content: right;
         display: flex;
         flex-direction: row;
     }
-    .estilobiografia{
-        text-align: center;
-        color: white;
-        font-family: 'Courier New', Courier, monospace sans-serif;
-        font-size: 2rem;
-        margin: 0;
-        background-color:#01050a;
-        width: auto;
-    }
+
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) and (max-width:1023px){
     .iconosredes{
         justify-content: right;
         display: flex;
         flex-direction: row;
     }
-    .estilobiografia{
-        text-align: center;
-        color: white;
-        font-family: 'Courier New', Courier, monospace sans-serif;
-        font-size: 2rem;
-        margin: 0;
-        background-color:#01050a;
-        width: auto;
-    }
+    
 }
-@media screen and (min-width:1024px){
+@media screen and (min-width:1024px) and (max-width:1199px){
     .iconosredes{
         justify-content: right;
         display: flex;
         flex-direction: row;
-
     }
-    .estilobiografia{
+
+    h1{
+        font-size: 3rem;
+        font-family: 'Courier New', Courier, monospace;
+        color: whitesmoke;
+    }
+
+    .texto-biografia{
+        text-align: left;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.5rem;
+        margin-left: 50px;
+    }
+    .grid-img-bio{
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 1;
+        grid-template-areas: "..centrado-img-bio";
+    }
+    
+    .img-bio{
+        grid-area: centrado-img-bio;
+        width: 450px;
+        height: 600px;
+        margin-bottom: 10px;
+    }
+    .estilo-des-bio{
+        font-size: 1rem;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        margin-bottom: 50px;
+    }
+
+    .estilo-disco{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 3rem;
+        color: white;
+        margin-bottom: 50px;
+     }
+     
+     .centradoye{
+         color:white;
+         margin-top: 20px;
+         text-align: center;
+         font-family: 'Courier New', Courier, monospace;
+     }
+     .gridiscografia{
+         display: grid;
+         grid-template-columns: repeat(4, 1fr);
+         grid-template-rows: repeat(5, 1fr);
+         grid-template-areas: 
+         "dis1 dis2 dis3 dis4"
+         "dis5 dis6 dis7 dis8"
+         "dis9 dis10 dis11 dis12"
+         "dis13 dis14 dis15 dis16"
+         "dis17 dis18 dis19 dis20";
+         overflow: hidden;
+         row-gap: 10px;
+         column-gap: 10px;
+     }
+     
+     .dis1{
+         grid-area: dis1;
+        width: 200px; 
+        height: 200px; 
+     margin-left:20px;
+     }
+     .dis2{
+         grid-area: dis2;
+         width: 200px; 
+         height: 200px;
+     }
+     .dis3{
+         grid-area: dis3;
+         width: 200px; 
+         height: 200px;
+     }
+     .dis4{
+         grid-area: dis4;
+         width: 200px; 
+         height: 200px;
+     }
+     .dis5{
+         grid-area: dis5;
+         width: 200px; 
+         height: 200px; 
+         margin-left:20px;
+     }
+     .dis6{
+         grid-area: dis6;
+         width: 200px; 
+         height: 200px;
+     }
+     .dis7{
+         grid-area: dis7;
+         width: 200px; 
+         height: 200px;
+     }
+     .dis8{
+         grid-area: dis8;
+         width: 200px; 
+         height: 200px;
+     }
+     .dis9{
+         grid-area: dis9;
+         width: 200px; 
+         height: 200px; 
+         margin-left:20px;
+     }
+     .dis10{
+         grid-area: dis10
+         ;width: 200px; 
+         height: 200px;
+     }
+     
+     .dis11{
+         grid-area: dis1;
+         width: 200px; 
+         height: 200px;
+     }
+     .dis12{
+         grid-area: dis12
+         ;width: 200px; 
+         height: 200px;
+     }
+     .dis13{
+         grid-area: dis13
+         ;width: 200px; 
+         height: 200px; 
+         margin-left:20px;
+     }
+     .dis14{
+         grid-area: dis14
+         ;width: 200px; 
+         height: 200px;
+     }
+     .dis15{
+         grid-area: dis15
+         ;width: 200px; 
+         height: 200px;
+     }
+     .dis16{
+         grid-area: dis16
+         ;width: 200px; 
+         height: 200px;
+     }
+     .dis17{
+         grid-area: dis17
+         ;width: 200px; 
+         height: 200px; 
+         margin-left:20px;
+     }
+     .dis18{
+         grid-area: dis18
+         ;width: 200px; 
+         height: 200px;
+     }
+     .dis19{
+         grid-area: dis19
+         ;width: 200px; 
+         height: 200px;
+     }
+     .dis20{
+         grid-area: dis20
+         ;width: 200px; 
+         height: 200px;
+     }
+
+    h3{
+        font-size: 1.5rem;
+        font-family: 'Courier New', Courier, monospace;
+        color: whitesmoke;
+    }
+    
+    table{
+        width: 100%;
+        border: 1px solid whitesmoke;
+        width: 800px;
+        overflow: hidden;
+        justify-content: center;
+        display: flex;
+    }
+    th, td {
+        width: 25%;
+        text-align: center;
+        vertical-align: top;
+        border: 1px solid whitesmoke;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.3rem;
+        color: whitesmoke;
+    }
+    
+    .centrado-show{
         text-align: center;
         color: white;
-        font-family: 'Courier New', Courier, monospace sans-serif;
-        font-size: 2rem;
-        margin: 0;
-        background-color:#01050a;
-        width: auto;
+        font-size: 3rem;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .estilo-galeria{
+        text-align: center;
+        color: white;
+        padding-bottom: 30px;
+        font-size: 3rem;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .gridGaleria{
+        display: grid;
+        grid-template-columns: repeat (4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        " uno dos tres"
+        " cuatro cinco seis"
+        " siete ocho nueve";
+        overflow: hidden;
+        row-gap: 30px;
+        column-gap: 30px;
+    }
+    
+    .imguno{
+        grid-area: uno;
+        width: 400px;
+        height: 250px;    
+    }
+    .imgdos{
+        grid-area: dos;
+        width: 250px;
+        height: 350px;
+    }
+    .imgtres{
+        grid-area: tres;
+        width: 400px;
+        height: 250px;     
+    }
+    .imgcuatro{
+        grid-area: cuatro;
+        width: 400px;
+        height: 250px;
+    }
+    .imgcinco{
+        grid-area: cinco;
+        width: 250px;
+        height: 350px;
+    }
+    .imgseis{
+        grid-area: seis;
+        width: 400px;
+        height: 250px;
+    }
+    .imgsiete{
+        grid-area: siete;
+        width: 400px;
+        height: 250px;
+    }
+    .imgocho{
+        grid-area: ocho;
+        width: 250px;
+        height: 350px;
+    }
+    .imgnueve{
+        grid-area: nueve;
+        width: 400px;
+        height: 250px;
+    }
+
+    .estilo-contacto{
+        text-align: center;
+        color:whitesmoke;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 3rem;
+    }
+    
+    .contacto{
+        width: 400px;
+        height: 350px;
+        text-align: left;
+        border: solid 1px white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #613525;
     }
 }
    
@@ -690,15 +991,5 @@ th, td {
         display: flex;
         flex-direction: row;
     }
-    .estilobiografia{
-        text-align: center;
-        color: white;
-        font-family: 'Courier New', Courier, monospace sans-serif;
-        font-size: 2rem;
-        margin: 0;
-        background-color:#01050a;
-        width: auto;
-    }
+
 }
-
-
