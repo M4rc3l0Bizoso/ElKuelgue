@@ -13,7 +13,36 @@ h1{
     font-size: 3rem;
     font-family: 'Courier New', Courier, monospace;
 }
-<!--iconos redes-->
+/*novedades*/
+
+.estilo-novedades{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.size-of-img{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+    grid-template-areas:
+    "novedades";
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    margin-left: 700px;
+    margin-bottom: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+.size-of-img{
+    grid-area: novedades;
+    
+}
+
+/*iconos redes*/
 
 .iconosredes{
     justify-content: right;
@@ -21,7 +50,7 @@ h1{
     flex-direction: row;
 }
 
-<!--navbar-->
+/*navbar*/
 .navbar-estilo{
     position: relative;
     display: flex;
@@ -30,6 +59,7 @@ h1{
     justify-content: space-between;
     padding: 0.5rem 1rem;
     color: white;
+    font-size: 2rem;
 }
 
 .boton{
@@ -65,7 +95,7 @@ ul{
     font-family: 'Courier New', Courier, monospace;
 }
 
-<!--biografia-->
+/*biografia*/
 
 .texto-biografia{
     text-align: left;
@@ -73,6 +103,7 @@ ul{
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5rem;
     margin-left: 50px;
+    margin-right: 50px;
 }
 .grid-img-bio{
     display: grid;
@@ -95,7 +126,7 @@ ul{
     margin-bottom: 50px;
 }
 
-<!--discografia-->
+/*discografia*/
 
 .estilo-disco{
    text-align: center;
@@ -122,68 +153,110 @@ ul{
     "dis13 dis14 dis15 dis16"
     "dis17 dis18 dis19 dis20";
     overflow: hidden;
-    row-gap: 20px;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-left: 45px;
 }
 
 .dis1{
     grid-area: dis1;
+    width: 400px;
+    height: 400px;
 }
 .dis2{
     grid-area: dis2;
+    width: 400px;
+    height: 400px;
 }
 .dis3{
     grid-area: dis3;
+    width: 400px;
+    height: 400px;
 }
 .dis4{
     grid-area: dis4;
+    width: 400px;
+    height: 400px;
 }
 .dis5{
     grid-area: dis5;
+    width: 400px;
+    height: 400px;
 }
 .dis6{
     grid-area: dis6;
+    width: 400px;
+    height: 400px;
 }
 .dis7{
     grid-area: dis7;
+    width: 400px;
+    height: 400px;
 }
 .dis8{
     grid-area: dis8;
+    width: 400px;
+    height: 400px;
 }
 .dis9{
     grid-area: dis9;
+    width: 400px;
+    height: 400px;
 }
 .dis10{
     grid-area: dis10;
+    width: 400px;
+    height: 400px;
 }
 .dis11{
     grid-area: dis11;
+    width: 400px;
+    height: 400px;
 }
 .dis12{
     grid-area: dis12;
+    width: 400px;
+    height: 400px;
 }
 .dis13{
     grid-area: dis13;
+    width: 400px;
+    height: 400px;
 }
 .dis14{
     grid-area: dis14;
+    width: 400px;
+    height: 400px;
 }
 .dis15{
     grid-area: dis15;
+    width: 400px;
+    height: 400px;
 }
 .dis16{
     grid-area: dis16;
+    width: 400px;
+    height: 400px;
 }
 .dis17{
     grid-area: dis17;
+    width: 400px;
+    height: 400px;
 }
 .dis18{
     grid-area: dis18;
+    width: 400px;
+    height: 400px;
 }
 .dis19{
     grid-area: dis19;
+    width: 400px;
+    height: 400px;
 }
 .dis20{
     grid-area: dis20;
+    width: 400px;
+    height: 400px;
 }
 
 
@@ -194,7 +267,7 @@ h3{
     text-align: auto;
 }
 
-<!--shows-->
+/*show*/
 
 table{
     width: 100%;
@@ -203,6 +276,7 @@ table{
     overflow: hidden;
     justify-content: center;
     display: flex;
+    margin-left: 560px;
 }
 th, td {
     width: 25%;
@@ -221,7 +295,7 @@ th, td {
     font-family: 'Courier New', Courier, monospace;
 }
 
-<!--galeria-->
+/*galeria*/
 
 .estilo-galeria{
     text-align: center;
@@ -239,97 +313,195 @@ th, td {
     " uno dos tres"
     " cuatro cinco seis"
     " siete ocho nueve";
-    gap: 3px;
     overflow: hidden;
+    margin-left: 150px;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 .imguno{
     grid-area: uno;
-    width: 500px;
-    height: 350px;    
+    width: 400px;
+    height: 400px;   
 }
 .imgdos{
     grid-area: dos;
-    width: 350px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
 }
 .imgtres{
     grid-area: tres;
-    width: 500px;
-    height: 350px;        
+    width: 400px;
+    height: 400px;        
 }
 .imgcuatro{
     grid-area: cuatro;
-    width: 500px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
 }
 .imgcinco{
     grid-area: cinco;
-    width: 350px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
 }
 .imgseis{
     grid-area: seis;
-    width: 500px;
-    height: 350px;
+    width: 400px;
+    height: 500px;
 }
 .imgsiete{
     grid-area: siete;
-    width: 500px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
 }
 .imgocho{
     grid-area: ocho;
-    width: 350px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
 }
 .imgnueve{
     grid-area: nueve;
-    width: 500px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
 }
 
 
-<!--contacto-->
+/*contacto*/
+
 .estilo-contacto{
     text-align: center;
     color:whitesmoke;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 .contacto{
-    width: 400px;
-    height: 350px;
-    text-align: left;
-    border: solid 1px white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    width:  400px;
+    height: 400px;
+    text-align: center;
+    border: solid 1px bisque;
     background-color: #613525;
+    margin-left: 750px;
+    margin-bottom: 40px;
+}
+
+.size-textarea{
+    width: 400px;
+    height: 200px;
+    background-color: bisque;
+}
+
+.fondo-contact{
+    background-color: bisque
 }
 
 
+
+
+
+/*adaptacion mobile*/
+
 @media screen and (min-width:320px) and (max-width:479px){
 
+
+/*navbar*/
+.navbar-estilo{
+    text-align: center;
+    padding: 1rem 1rem;
+    color: white;
+    font-size: 1rem;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.boton{
+    padding: 0.35rem 0.75rem;
+    font-size: 1.5rem;
+    line-height: 1;
+    background-color: white;
+    border-radius: 0.25rem;
+    border-color: bisque;   
+    position: relative;
+}
+
+.estilo-titulo{
+    text-align: center;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+    line-height: inherit;
+    white-space: nowrap;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul{
+    text-align: left;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
 .iconosredes{
-    justify-content: center;
+    justify-content: right;
     display: flex;
-    flex-direction: row;
+    flex-direction:wrap;
+    gap: 2.5px;
+    margin-right: 2px;
+}
+
+.size-icons{
+    width: 25px;
+    height: 25px;
+    
 }
 
 h1{
     font-size: 2rem;
     font-family: 'Courier New', Courier, monospace;
     color: whitesmoke;
+    text-align: center;
 
 }
+
+/*novedades*/
+
+.estilo-novedades{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.size-of-img{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+    grid-template-areas:
+    "novedades";
+    
+}
+
+.size-of-img{
+    grid-area: novedades;
+    width: 300px;
+    height: 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+/*biografia*/
+
 
 .grid-img-bio{
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: 1;
-    grid-template-areas: "..centrado-img-bio";
+    grid-template-areas: 
+    "centrado-img-bio";
 }
 
 .img-bio{
@@ -337,6 +509,7 @@ h1{
     width: 300px;
     height: 400px;
     margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 .estilo-des-bio{
@@ -356,16 +529,19 @@ h1{
     font-size: 0.9rem;
 }
 
+/*discografia*/
+
+
 .estilo-disco{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-bottom: 10px;
     color: whitesmoke;
 }
 
 h3{
-    font-size: 1rem;
+    font-size: 0.5rem;
     font-family: 'Courier New', Courier, monospace;
     text-align: auto;
     margin-left: 10px;
@@ -374,7 +550,7 @@ h3{
 .centradoye{
     margin-top: 20px;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: whitesmoke;
 
 }
@@ -383,184 +559,150 @@ h3{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas: 
-    "dis1 dis2"
-    "dis3 dis4"
-    "dis5 dis6"
-    "dis7 dis8"
-    "dis9 dis10"
-    "dis11 dis12"
-    "dis13 dis14"
-    "dis15 dis16"
-    "dis17 dis18"
-    "dis19 dis20";
+    "dis1"
+    "dis2"
+    "dis3"
+    "dis4"
+    "dis5"
+    "dis6"
+    "dis7"
+    "dis8"
+    "dis9"
+    "dis10"
+    "dis11"
+    "dis12"
+    "dis13"
+    "dis14"
+    "dis15"
+    "dis16"
+    "dis17"
+    "dis18"
+    "dis19"
+    "dis20";
     overflow: hidden;
-    margin-right: 10px;
+    margin-right: 40px;
+    margin-left: 60px;
 }
 
 .dis1{
     grid-area: dis1;
-    width: 150px;
-    height: 150px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-
+    width: 200px;
+    height: 200px;
+    
 }
 .dis2{
     grid-area: dis2;
-    width: 150px;
-    height: 150px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 200px;
+    height: 200px;
 }
 .dis3{
     grid-area: dis3;
-    width: 150px;
-    height: 150px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
 }
 .dis4{
     grid-area: dis4;
-    width: 150px;
-    height: 150px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 200px;
+    height: 200px;
 }
 .dis5{
     grid-area: dis5;
-    width: 150px;
-    height: 150px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
 }
 .dis6{
     grid-area: dis6;
-    width: 150px;
-    height: 150px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 200px;
+    height: 200px;
 }
 .dis7{
     grid-area: dis7;
-    width: 150px;
-    height: 150px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
 }
 .dis8{
     grid-area: dis8;
-    width: 150px;
-    height: 150px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 200px;
+    height: 200px;
 }
 .dis9{
     grid-area: dis9;
-    width: 150px;
-    height: 150px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
 }
 .dis10{
     grid-area: dis10;
-    width: 150px;
-    height: 150px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 200px;
+    height: 200px;
 }
 .dis11{
     grid-area: dis11;
-    width: 150px;
-    height: 150px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
 }
 .dis12{
     grid-area: dis12;
-    width: 150px;
-    height: 150px;margin-left: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 200px;
+    height: 200px;
 }
 .dis13{
     grid-area: dis13;
-    width: 150px;
-    height: 150px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
 }
 .dis14{
     grid-area: dis14;
-    width: 150px;
-    height: 150px;margin-left: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 200px;
+    height: 200px;
 }
 .dis15{
     grid-area: dis15;
-    width: 150px;
-    height: 150px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
 }
 .dis16{
     grid-area: dis16;
-    width: 150px;
-    height: 150px;margin-left: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 200px;
+    height: 200px;
 }
 .dis17{
     grid-area: dis17;
-    width: 150px;
-    height: 150px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
 }
 .dis18{
     grid-area: dis18;
-    width: 150px;
-    height: 150px;margin-left: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 200px;
+    height: 200px;
 }
 .dis19{
     grid-area: dis19;
-    width: 150px;
-    height: 150px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
 }
-
 .dis20{
     grid-area: dis20;
-    width: 150px;
-    height: 150px;margin-left: 10px;
-    margin-right: 10px;margin-left: 10px;
-    margin-right: 10px;
+    width: 200px;
+    height: 200px;
 }
 
-table{
-    width: 100%;
+/*show*/
+
+.size-table{
+    width: 90%;
     border: 1px solid whitesmoke;
-    width: 318px;
-    overflow: hidden;
-    justify-content: center;
-    display: flex;
-    margin-left: 7px;
+    margin-left: 15px;
+    margin-bottom: 40px;
 }
 th, td {
     text-align: center;
-    vertical-align: top;
     border: 1px solid white;
     color:whitesmoke;
     font-family:e 'Courier New', Courier, monospace;
-    font-size: 0.7rem;
+    font-size: 0.3rem;
 }
+
+/*galeria*/
 
 .estilogaleria{
     text-align: center;
@@ -585,111 +727,94 @@ th, td {
     "ocho"
     "nueve";
     overflow: hidden;
+    margin-right: 40px;
+    margin-left: 60px;
+    row-gap: 20px
+    ;
 }
 
 .imguno{
     grid-area: uno;
-    width: 300px;
+    width: 200px;
     height: 200px;
-    margin-left: 10px;
+   
 }
 .imgdos{
     grid-area: dos;
-    height: 300px;
-    width: 230px;
-    margin-left: 45px;
+    height: 200px;
+    width: 200px;
+    
 }
 .imgtres{
     grid-area: tres;
-    width: 300px;
+    width: 200px;
     height: 200px;
-    margin-left: 10px;
-    margin-top: 30px;
+
 }
 .imgcuatro{
     grid-area: cuatro;
-    width: 300px;
+    width: 200px;
     height: 200px;
-    margin-left: 10px;
 }
 .imgcinco{
     grid-area: cinco;
-    height: 300px;
+    height: 200px;
     width: 200px;
-    margin-left: 45px;
-}
 }
 .imgseis{
     grid-area: seis;
-    width: 300px;
+    width: 200px;
     height: 200px;
-    margin-left: 10px;
 }
 .imgsiete{
     grid-area: siete;
-    width: 300px;
+    width: 200px;
     height: 200px;
-    margin-left: 10px;
 }
 .imgocho{
     grid-area: ocho;
-    height: 300px;
-    width: 230px;
-    margin-left: 45px;
-    margin-bottom: 30px;
+    height: 200px;
+    width: 200px;
 }
 
 .imgnueve{
     grid-area: nueve;
-    width: 300px;
+    width: 200px;
     height: 200px;
-    margin-left: 10px;
 }
+
+/*contacto*/
 
 .estilo-contacto{
     text-align: center;
     color:whitesmoke;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
 }
 
 .contacto{
-    width: 300px;
-    height: 250px;
-    text-align: left;
-    border: solid 1px white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    width:  300px;
+    height: 320px;
+    text-align: center;
+    border: solid 1px bisque;
     background-color: #613525;
+    margin-left: 10px;
+    margin-bottom: 40px;
 }
 
-@media screen and (min-width:480px) and (max-width:599px){
-    .iconosredes{
-        justify-content: right;
-        display: flex;
-        flex-direction: row;
-        font-size: 1rem;
-    }
-    
+.size-textarea{
+    width: 300px;
+    height: 200px;
+    background-color: bisque;
 }
 
-@media screen and (min-width:600px) and (max-width:767px){
-    .iconosredes{
-        justify-content: right;
-        display: flex;
-        flex-direction: row;
-    }
-
+.fondo-contact{
+    background-color: bisque
+}
 }
 
-@media screen and (min-width:768px) and (max-width:1023px){
-    .iconosredes{
-        justify-content: right;
-        display: flex;
-        flex-direction: row;
-    }
-    
-}
+/*adaptacion desktop*/
+
 @media screen and (min-width:1024px) and (max-width:1199px){
     .iconosredes{
         justify-content: right;
@@ -758,115 +883,112 @@ th, td {
          overflow: hidden;
          row-gap: 10px;
          column-gap: 10px;
-     }
-     
-     .dis1{
-         grid-area: dis1;
-        width: 200px; 
-        height: 200px; 
-     margin-left:20px;
-     }
-     .dis2{
-         grid-area: dis2;
-         width: 200px; 
-         height: 200px;
-     }
-     .dis3{
-         grid-area: dis3;
-         width: 200px; 
-         height: 200px;
-     }
-     .dis4{
-         grid-area: dis4;
-         width: 200px; 
-         height: 200px;
-     }
-     .dis5{
-         grid-area: dis5;
-         width: 200px; 
-         height: 200px; 
-         margin-left:20px;
-     }
-     .dis6{
-         grid-area: dis6;
-         width: 200px; 
-         height: 200px;
-     }
-     .dis7{
-         grid-area: dis7;
-         width: 200px; 
-         height: 200px;
-     }
-     .dis8{
-         grid-area: dis8;
-         width: 200px; 
-         height: 200px;
-     }
-     .dis9{
-         grid-area: dis9;
-         width: 200px; 
-         height: 200px; 
-         margin-left:20px;
-     }
-     .dis10{
-         grid-area: dis10
-         ;width: 200px; 
-         height: 200px;
-     }
-     
-     .dis11{
-         grid-area: dis1;
-         width: 200px; 
-         height: 200px;
-     }
-     .dis12{
-         grid-area: dis12
-         ;width: 200px; 
-         height: 200px;
-     }
-     .dis13{
-         grid-area: dis13
-         ;width: 200px; 
-         height: 200px; 
-         margin-left:20px;
-     }
-     .dis14{
-         grid-area: dis14
-         ;width: 200px; 
-         height: 200px;
-     }
-     .dis15{
-         grid-area: dis15
-         ;width: 200px; 
-         height: 200px;
-     }
-     .dis16{
-         grid-area: dis16
-         ;width: 200px; 
-         height: 200px;
-     }
-     .dis17{
-         grid-area: dis17
-         ;width: 200px; 
-         height: 200px; 
-         margin-left:20px;
-     }
-     .dis18{
-         grid-area: dis18
-         ;width: 200px; 
-         height: 200px;
-     }
-     .dis19{
-         grid-area: dis19
-         ;width: 200px; 
-         height: 200px;
-     }
-     .dis20{
-         grid-area: dis20
-         ;width: 200px; 
-         height: 200px;
-     }
+        }
 
+        .dis1{
+            grid-area: dis1;
+            width: 200px;
+            height: 200px;
+            
+        }
+        .dis2{
+            grid-area: dis2;
+            width: 200px;
+            height: 200px;
+        }
+        .dis3{
+            grid-area: dis3;
+            width: 200px;
+            height: 200px;
+        }
+        .dis4{
+            grid-area: dis4;
+            width: 200px;
+            height: 200px;
+        }
+        .dis5{
+            grid-area: dis5;
+            width: 200px;
+            height: 200px;
+        }
+        .dis6{
+            grid-area: dis6;
+            width: 200px;
+            height: 200px;
+        }
+        .dis7{
+            grid-area: dis7;
+            width: 200px;
+            height: 200px;
+        }
+        .dis8{
+            grid-area: dis8;
+            width: 200px;
+            height: 200px;
+        }
+        .dis9{
+            grid-area: dis9;
+            width: 200px;
+            height: 200px;
+        }
+        .dis10{
+            grid-area: dis10;
+            width: 200px;
+            height: 200px;
+        }
+        .dis11{
+            grid-area: dis11;
+            width: 200px;
+            height: 200px;
+        }
+        .dis12{
+            grid-area: dis12;
+            width: 200px;
+            height: 200px;
+        }
+        .dis13{
+            grid-area: dis13;
+            width: 200px;
+            height: 200px;
+        }
+        .dis14{
+            grid-area: dis14;
+            width: 200px;
+            height: 200px;
+        }
+        .dis15{
+            grid-area: dis15;
+            width: 200px;
+            height: 200px;
+        }
+        .dis16{
+            grid-area: dis16;
+            width: 200px;
+            height: 200px;
+        }
+        .dis17{
+            grid-area: dis17;
+            width: 200px;
+            height: 200px;
+        }
+        .dis18{
+            grid-area: dis18;
+            width: 200px;
+            height: 200px;
+        }
+        
+        .dis19{
+            grid-area: dis19;
+            width: 200px;
+            height: 200px;
+        }
+        .dis20{
+            grid-area: dis20;
+            width: 200px;
+            height: 200px;
+        }
+    }
+        
     h3{
         font-size: 1.5rem;
         font-family: 'Courier New', Courier, monospace;
@@ -897,7 +1019,9 @@ th, td {
         font-size: 3rem;
         font-family: 'Courier New', Courier, monospace;
     }
+    
 
+    
     .estilo-galeria{
         text-align: center;
         color: white;
@@ -906,90 +1030,35 @@ th, td {
         font-family: 'Courier New', Courier, monospace;
     }
     
-    .gridGaleria{
-        display: grid;
-        grid-template-columns: repeat (4, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-template-areas: 
-        " uno dos tres"
-        " cuatro cinco seis"
-        " siete ocho nueve";
-        overflow: hidden;
-        row-gap: 30px;
-        column-gap: 30px;
-    }
-    
-    .imguno{
-        grid-area: uno;
-        width: 400px;
-        height: 250px;    
-    }
-    .imgdos{
-        grid-area: dos;
-        width: 250px;
-        height: 350px;
-    }
-    .imgtres{
-        grid-area: tres;
-        width: 400px;
-        height: 250px;     
-    }
-    .imgcuatro{
-        grid-area: cuatro;
-        width: 400px;
-        height: 250px;
-    }
-    .imgcinco{
-        grid-area: cinco;
-        width: 250px;
-        height: 350px;
-    }
-    .imgseis{
-        grid-area: seis;
-        width: 400px;
-        height: 250px;
-    }
-    .imgsiete{
-        grid-area: siete;
-        width: 400px;
-        height: 250px;
-    }
-    .imgocho{
-        grid-area: ocho;
-        width: 250px;
-        height: 350px;
-    }
-    .imgnueve{
-        grid-area: nueve;
-        width: 400px;
-        height: 250px;
-    }
 
-    .estilo-contacto{
+    /*contacto*/
+
+    /*.estilo-contacto{
         text-align: center;
         color:whitesmoke;
         font-family: 'Courier New', Courier, monospace;
-        font-size: 3rem;
+        font-size: 1.5rem;
     }
     
     .contacto{
-        width: 400px;
-        height: 350px;
-        text-align: left;
-        border: solid 1px white;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        width:  400px;
+        height: 400px;
+        text-align: center;
+        border: solid 1px bisque;
         background-color: #613525;
+        margin-left: 750px;
+        margin-bottom: 40px;
     }
-}
-   
-
-@media screen and (min-width:1200px){
-    .iconosredes{
-        justify-content: right;
-        display: flex;
-        flex-direction: row;
+    
+    .size-textarea{
+        width: 400px;
+        height: 200px;
+        background-color: bisque;
     }
-
-}
+    
+    .fondo-contact{
+        background-color: bisque
+    }
+    
+    
+    
