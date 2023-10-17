@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#613525 ;
+    h1{
+        text-align: center;
+    color: whitesmoke;
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+
+//navbar
+
+.navbar-estilo{
+    position:relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-size: 2rem;
+    .estilo-titulo{
+        display: inline-block;
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+        margin-right: 1rem;
+        font-size: 3rem;
+        line-height: inherit;
+        white-space: nowrap;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        .boton{
+            padding: 0.25rem 0.75rem;
+            font-size: 3rem;
+            line-height: 1;
+            background-color: white;
+            border-radius: 0.25rem;
+            border: 0;
+            ul{
+                display: block;
+                list-style-type: none;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                padding-inline-start: 40px;
+                color: whitesmoke;
+                font-family: 'Courier New', Courier, monospace;
+            }
+        }
+
+    }
+}
+
+//novedades
+.estilo-novedades{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.size-of-img{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+    grid-area: 
+    "novedades";
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    margin-left: 700px;
+    margin-bottom: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+.size-of-img{
+    grid-area: novedaes;
+
+}
+
+//iconos redes
+.iconosredes{
+    justify-content: right;
+    display: flex;
+    flex-direction: row;
+}
+
+//biografia
+
+.texto-biografia{
+    text-align: left;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.grid-img-bio{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+    grid-template-areas: 
+    "..centrado-img-bio";
+    img{
+        grid-area: centrado-img-bio;
+        width: 450px;
+        height: 600px;
+        margin-bottom: 10px;
+    }
+}
+
+.estilo-des-bio{
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-bottom: 50px;
+}
+
+//discografia
+
+.estilo-disco{
+    text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 3rem;
+   color: white;
+   margin-bottom: 50px;
+}
+
+.centradoye{
+    color:white;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.gridiscografia{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "dis1 dis2 dis3 dis4"
+    "dis5 dis6 dis7 dis8"
+    "dis9 dis10 dis11 dis12"
+    "dis13 dis14 dis15 dis16"
+    "dis17 dis18 dis19 dis20";
+    overflow: hidden;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-left: 45px;
+    .dis1{
+        grid-area: dis1;
+        width: 400px;
+        height: 400px;
+    }
+    .dis2{
+        grid-area: dis2;
+        width: 400px;
+        height: 400px;
+    }
+    .dis3{
+        grid-area: dis3;
+        width: 400px;
+        height: 400px;
+    }
+    .dis4{
+        grid-area: dis4;
+        width: 400px;
+        height: 400px;
+    }
+    .dis5{
+        grid-area: dis5;
+        width: 400px;
+        height: 400px;
+    }
+    .dis6{
+        grid-area: dis6;
+        width: 400px;
+        height: 400px;
+    }
+    .dis7{
+        grid-area: dis7;
+        width: 400px;
+        height: 400px;
+    }
+    .dis8{
+        grid-area: dis8;
+        width: 400px;
+        height: 400px;
+    }
+    .dis9{
+        grid-area: dis9;
+        width: 400px;
+        height: 400px;
+    }
+    .dis10{
+        grid-area: dis10;
+        width: 400px;
+        height: 400px;
+    }
+    .dis11{
+        grid-area: dis11;
+        width: 400px;
+        height: 400px;
+    }
+    .dis12{
+        grid-area: dis12;
+        width: 400px;
+        height: 400px;
+    }
+    .dis13{
+        grid-area: dis13;
+        width: 400px;
+        height: 400px;
+    }
+    .dis14{
+        grid-area: dis14;
+        width: 400px;
+        height: 400px;
+    }
+    .dis15{
+        grid-area: dis15;
+        width: 400px;
+        height: 400px;
+    }
+    .dis16{
+        grid-area: dis16;
+        width: 400px;
+        height: 400px;
+    }
+    .dis17{
+        grid-area: dis17;
+        width: 400px;
+        height: 400px;
+    }
+    .dis18{
+        grid-area: dis18;
+        width: 400px;
+        height: 400px;
+    }
+    .dis19{
+        grid-area: dis19;
+        width: 400px;
+        height: 400px;
+    }
+    .dis20{
+        grid-area: dis20;
+        width: 400px;
+        height: 400px;
+    }
+}
+
+h3{
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    text-align: auto;
+}
+
+//show
+
+.size-table{
+    width: 100%;
+    border: 1px solid whitesmoke;
+    width: 800px;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    margin-left: 560px;
+    th, td{
+        width: 25%;
+        text-align: center;
+        vertical-align: top;
+        border: 1px solid whitesmoke;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.3rem;
+        color: whitesmoke;
+    }
+}
+
+.centrado-show{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+//galeria
+
+.gridGaleria{
+    display: grid;
+    grid-template-columns: repeat (4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    " uno dos tres"
+    " cuatro cinco seis"
+    " siete ocho nueve";
+    overflow: hidden;
+    margin-left: 150px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    row-gap: 20px;
+    .imguno{
+        grid-area: uno;
+        width: 400px;
+        height: 400px;   
+    }
+    .imgdos{
+        grid-area: dos;
+        width: 400px;
+        height: 400px;   
+    }
+    .imgtres{
+        grid-area: tres;
+        width: 400px;
+        height: 400px;   
+    }
+    .imgcuatro{
+        grid-area: cuatro;
+        width: 400px;
+        height: 400px;   
+    }
+    .imgcinco{
+        grid-area: cinco;
+        width: 400px;
+        height: 400px;   
+    }
+    .imgseis{
+        grid-area: seis;
+        width: 400px;
+        height: 400px;   
+    }
+    .imgsiete{
+        grid-area: siete;
+        width: 400px;
+        height: 400px;   
+    }
+    .imgocho{
+        grid-area: ocho;
+        width: 400px;
+        height: 400px;
+    }
+    .imgnueve{
+        grid-area: nueve;
+        width: 400px;
+        height: 400px;   
+    }  
+}
+
+//contacto
+
+.contacto{
+    width:  400px;
+    height: 400px;
+    text-align: center;
+    border: solid 1px bisque;
+    background-color: #613525;
+    margin-left: 750px;
+    margin-bottom: 40px;
+    div{
+        text-align: center;
+        color:whitesmoke;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.5rem;
+    }
+    .fondo-contact{
+        background-color: bisque
+        }
+        .size-textarea{
+            width: 400px;
+            height: 200px;
+            background-color: bisque;
+        }
+    }
+
+    
+
+
+
