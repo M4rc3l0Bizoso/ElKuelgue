@@ -48,6 +48,8 @@ h1{
     justify-content: right;
     display: flex;
     flex-direction: row;
+    gap: 2.5px;
+    margin-right: 5px;
 }
 
 /*navbar*/
