@@ -856,7 +856,7 @@ th, td {
         color: white;
         margin-bottom: 50px;
     }
-
+    /*discografia*/
     .estilo-disco{
         text-align: center;
         font-family: 'Courier New', Courier, monospace;
@@ -1014,13 +1014,6 @@ th, td {
         color: whitesmoke;
     }
     
-    .centrado-show{
-        text-align: center;
-        color: white;
-        font-size: 3rem;
-        font-family: 'Courier New', Courier, monospace;
-    }
-    
 
     
     .estilo-galeria{
@@ -1032,34 +1025,6 @@ th, td {
     }
     
 
-    /*contacto*/
-
-    /*.estilo-contacto{
-        text-align: center;
-        color:whitesmoke;
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 1.5rem;
-    }
-    
-    .contacto{
-        width:  400px;
-        height: 400px;
-        text-align: center;
-        border: solid 1px bisque;
-        background-color: #613525;
-        margin-left: 750px;
-        margin-bottom: 40px;
-    }
-    
-    .size-textarea{
-        width: 400px;
-        height: 200px;
-        background-color: bisque;
-    }
-    
-    .fondo-contact{
-        background-color: bisque
-    }
     
     
     
