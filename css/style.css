@@ -64,6 +64,11 @@ h1{
     margin-bottom: 15px;
 }
 
+.size-icons{
+    width: 40px;
+    height: 40px;
+}
+
 
 /*navbar*/
 .navbar-estilo{
@@ -590,6 +595,10 @@ ul{
     font-family: 'Courier New', Courier, monospace;
 }
 
+li:hover{
+    color:blanchedalmond;
+    text-decoration: underline;
+}
 
 .iconosredes{
     justify-content: right;
@@ -851,13 +860,6 @@ th, td {
 
 /*galeria*/
 
-.estilogaleria{
-    text-align: center;
-    color: black;
-    padding-bottom: 30px;
-    font-size: 3rem;
-    font-family: 'Courier New', Courier, monospace serif;
-}
 
 .gridGaleria{
     display: grid;
@@ -876,8 +878,7 @@ th, td {
     overflow: hidden;
     margin-right: 40px;
     margin-left: 60px;
-    row-gap: 20px
-    ;
+    row-gap: 20px;
 }
 
 .imguno{
