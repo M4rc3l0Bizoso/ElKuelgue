@@ -1,0 +1,57 @@
+.iconosredes{
+    justify-content: right;
+    display: flex;
+    flex-direction: row;
+    gap: 2.5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+
+.navbar-estilo{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    color: $color-titulo-navabar;
+    font-size: 2rem;
+    text-align: center;
+}
+.boton{
+    padding: 0.35rem 0.80rem ;
+    font-size: 3rem;
+    line-height: 1;
+    background-color: $color-boton;
+    border-radius: 0.25rem;
+    border: 0;
+}
+
+.estilo-titulo{
+    display: inline-block;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    margin-right: 1rem;
+    font-size: 3rem;
+    line-height: inherit;
+    white-space: nowrap;
+    color:$color-titulo-navabar;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul{
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    color: $color-ul;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li:hover{
+    color: $color-li-hover;
+    text-decoration: underline;
+}

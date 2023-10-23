@@ -13,6 +13,8 @@ h1{
     font-size: 3rem;
     font-family: 'Courier New', Courier, monospace;
 }
+
+
 /*novedades*/
 
 .estilo-novedades{
@@ -20,7 +22,12 @@ h1{
     font-size: 2rem;
     color: whitesmoke;
     text-align: center;
+    background-color: #93A58D;
+    margin-top: 20px;
+    width: 900px;
+    margin-left: 500px;
 }
+
 
 .size-of-img{
     display: grid;
@@ -39,6 +46,10 @@ h1{
 
 .size-of-img{
     grid-area: novedades;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    border-radius: 20px;
     
 }
 
@@ -50,7 +61,9 @@ h1{
     flex-direction: row;
     gap: 2.5px;
     margin-right: 5px;
+    margin-bottom: 15px;
 }
+
 
 /*navbar*/
 .navbar-estilo{
@@ -62,13 +75,13 @@ h1{
     padding: 0.5rem 1rem;
     color: white;
     font-size: 2rem;
+    text-align: center;
 }
-
 .boton{
-    padding: 0.25rem 0.75rem;
+    padding: 0.35rem 0.80rem ;
     font-size: 3rem;
     line-height: 1;
-    background-color: white;
+    background-color: #93A58D;
     border-radius: 0.25rem;
     border: 0;
 }
@@ -97,6 +110,10 @@ ul{
     font-family: 'Courier New', Courier, monospace;
 }
 
+li:hover{
+    color: blanchedalmond;
+    text-decoration: underline;
+}
 /*biografia*/
 
 .texto-biografia{
@@ -130,6 +147,7 @@ ul{
 
 /*discografia*/
 
+
 .estilo-disco{
    text-align: center;
    font-family: 'Courier New', Courier, monospace;
@@ -143,7 +161,10 @@ ul{
     margin-top: 20px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    background-color: green;
 }
+
+
 .gridiscografia{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -157,108 +178,192 @@ ul{
     overflow: hidden;
     row-gap: 10px;
     column-gap: 10px;
-    margin-left: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
 }
 
 .dis1{
     grid-area: dis1;
     width: 400px;
     height: 400px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
+
 }
+
 .dis2{
     grid-area: dis2;
     width: 400px;
     height: 400px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .dis3{
     grid-area: dis3;
     width: 400px;
     height: 400px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .dis4{
     grid-area: dis4;
     width: 400px;
     height: 400px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .dis5{
     grid-area: dis5;
     width: 400px;
     height: 400px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .dis6{
     grid-area: dis6;
     width: 400px;
     height: 400px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .dis7{
     grid-area: dis7;
     width: 400px;
     height: 400px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .dis8{
     grid-area: dis8;
     width: 400px;
     height: 400px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .dis9{
     grid-area: dis9;
     width: 400px;
     height: 400px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .dis10{
     grid-area: dis10;
     width: 400px;
     height: 400px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .dis11{
     grid-area: dis11;
     width: 400px;
     height: 400px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .dis12{
     grid-area: dis12;
     width: 400px;
     height: 400px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .dis13{
     grid-area: dis13;
     width: 400px;
     height: 400px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .dis14{
     grid-area: dis14;
     width: 400px;
     height: 400px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .dis15{
     grid-area: dis15;
     width: 400px;
     height: 400px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .dis16{
     grid-area: dis16;
     width: 400px;
     height: 400px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .dis17{
     grid-area: dis17;
     width: 400px;
     height: 400px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .dis18{
     grid-area: dis18;
     width: 400px;
     height: 400px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .dis19{
     grid-area: dis19;
     width: 400px;
     height: 400px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .dis20{
     grid-area: dis20;
     width: 400px;
     height: 400px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 
 
@@ -299,13 +404,6 @@ th, td {
 
 /*galeria*/
 
-.estilo-galeria{
-    text-align: center;
-    color: white;
-    padding-bottom: 30px;
-    font-size: 3rem;
-    font-family: 'Courier New', Courier, monospace;
-}
 
 .gridGaleria{
     display: grid;
@@ -326,46 +424,92 @@ th, td {
     grid-area: uno;
     width: 400px;
     height: 400px;   
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
+    
 }
 .imgdos{
     grid-area: dos;
     width: 400px;
     height: 400px;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .imgtres{
     grid-area: tres;
     width: 400px;
-    height: 400px;        
+    height: 400px;   
+    border-radius: 7px;     
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .imgcuatro{
     grid-area: cuatro;
     width: 400px;
     height: 400px;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .imgcinco{
     grid-area: cinco;
     width: 400px;
     height: 400px;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .imgseis{
     grid-area: seis;
     width: 400px;
     height: 400px;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .imgsiete{
     grid-area: siete;
     width: 400px;
     height: 400px;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .imgocho{
     grid-area: ocho;
     width: 400px;
     height: 400px;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 .imgnueve{
     grid-area: nueve;
     width: 400px;
     height: 400px;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.35);
+    margin-bottom: 5px;
 }
 
 
